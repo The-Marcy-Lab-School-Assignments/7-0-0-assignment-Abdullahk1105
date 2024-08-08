@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <div>
+    <>
 
       <div>
         <button onClick={() => FontChange(-10)}>-</button>
@@ -50,7 +50,7 @@ function App() {
       <button onClick={() => Language("HaitianCreole")}>Haitian Creole</button>
       <button onClick={() =>Language("Portuguese")}>Portuguese</button>
       </div>
-    </div>
+    </>
   );
 };
 
